@@ -21,8 +21,7 @@ public class TipoString {
         var nome = "Pedro";
         var sobrenome = "Santos";
         var idade = 30;
-        var salario = 12345.987;
-]
+        var salario = 12_345.987;
 
         System.out.println("Nome: "
                 + nome + "\nSobrenome: "
@@ -36,5 +35,16 @@ public class TipoString {
 
         String frase = String.format("\nO senhor %s %s tem %d anos e ganha R$%.2f.", nome, sobrenome, idade, salario);
         System.out.println(frase);
+
+        System.out.println("Frase qualquer".contains("qual"));
+        System.out.println("Frase qualquer".indexOf("qual"));
+        System.out.println("Frase qualquer".substring(6));
+        System.out.println("Frase qualquer".substring(6, 10));
     }
 }
+
+
+//           %f = ponto flutuante
+//           %d = inteiro
+//           %s = texto
+//           %n = quebra linha
