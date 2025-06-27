@@ -52,7 +52,7 @@ public class Console {
     }
 }
 
-
+//           %b = boolean > Serve para imprimir valores true ou false.
 //           %f = ponto flutuante
 //           %d = inteiro
 //           %s = texto
