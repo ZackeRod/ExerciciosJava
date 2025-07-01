@@ -7,10 +7,12 @@ public class DesafioLogicos {
         boolean trabalhoQuinta = true;
 
         // Compras e resultados
-        boolean comprouTV50 = trabalhoTerça && trabalhoQuinta;
-        boolean comprouTV32 = trabalhoTerça ^ trabalhoQuinta;
-        boolean tomouSorvete = trabalhoTerça || trabalhoQuinta;
-        boolean ficouSaudavel = !tomouSorvete;
+        boolean comprouTV50 = trabalhoTerca && trabalhoQuinta;
+        boolean comprouTV32 = trabalhoTerca ^ trabalhoQuinta;
+        boolean comprouSorvete = trabalhoTerca || trabalhoQuinta;
+
+        // Operador Unário!
+        boolean maisSaudavel = !comprouSorvete;
 
         // Saídas formatadas
         System.out.printf("Trabalhou na terça? %b%n", trabalhoTerça);
