@@ -18,7 +18,7 @@ public class Unarios {
 
         System.out.println("Mini Desafio...");
         System.out.println(++a == b--);
-        System.out.println(a == b); // Precedência > ++a tem mais pressa que b--
+        System.out.println(a == b);   // Precedência > ++a tem mais pressa que b--
         System.out.println(a);
         System.out.println(b);
     }
